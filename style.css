@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Headings */
+h2, h3 {
+  color: #00bcd4;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+/* Navigation */
+.nav {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.nav a {
+  color: #90caf9;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 15px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+.nav a:hover {
+  border-bottom: 2px solid #00bcd4;
+  color: #00e5ff;
+}
+
+/* Forms */
+form {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 25px;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(0, 188, 212, 0.3);
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #90caf9;
+}
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background-color: #2a2a2a;
+  color: #fff;
+}
+input[type="submit"] {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s;
+  font-weight: 600;
+}
+input[type="submit"]:hover {
+  background-color: #0097a7;
+}
+
+/* Table */
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.2);
+}
+th, td {
+  border: 1px solid #333;
+  padding: 12px;
+  text-align: center;
+}
+th {
+  background-color: #00bcd4;
+  color: #121212;
+  text-transform: uppercase;
+}
+tr:nth-child(even) {
+  background-color: #242424;
+}
+tr:hover {
+  background-color: #2c2c2c;
+}
+
+/* Message */
+.message {
+  text-align: center;
+  padding: 12px;
+  background-color: #004d40;
+  color: #a7ffeb;
+  border-radius: 8px;
+  margin: 15px auto;
+  width: 400px;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
+
+/* Center link */
+.center {
+  text-align: center;
+  margin-top: 20px;
+}
+.center a {
+  color: #90caf9;
+  text-decoration: none;
+}
+.center a:hover {
+  color: #00e5ff;
+}
