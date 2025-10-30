@@ -1,5 +1,4 @@
 # 🎓 Student Attendance Management System  
-### 📌 APEX TASK 5 - Capstone Project & Deployment | ApexPlanet Internship
 
 
 ## 🚀 Project Overview
